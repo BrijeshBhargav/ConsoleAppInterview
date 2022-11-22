@@ -1,0 +1,8 @@
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\bin\Debug\ConsoleAppInterview.exe.config
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\bin\Debug\ConsoleAppInterview.exe
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\bin\Debug\ConsoleAppInterview.pdb
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\obj\Debug\ConsoleAppInterview.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\obj\Debug\ConsoleAppInterview.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\obj\Debug\ConsoleAppInterview.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\obj\Debug\ConsoleAppInterview.exe
+C:\Users\HP\source\repos\ConsoleAppInterview\ConsoleAppInterview\obj\Debug\ConsoleAppInterview.pdb
