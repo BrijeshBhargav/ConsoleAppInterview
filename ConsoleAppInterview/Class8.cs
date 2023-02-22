@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -54,7 +55,6 @@ namespace ConsoleAppInterview
         }
         public static void charoc()
         {
-
             Console.Write("Enter a string : ");
             string s = Console.ReadLine();
             while (s.Length > 0)
@@ -400,6 +400,104 @@ namespace ConsoleAppInterview
             }
             Console.ReadKey();
         }
-    }
+        public static void pattren()
+        {
+            for(int i=1;i<=5;i++)
+            {
+                for(int j=1;j<=i;j++)
+                {
+                    Console.Write(j);
+                }
+                Console.WriteLine();
+            }
+            
+        }       
+        
+        public static void surface()
+        {
+            float Radius = float.Parse(Console.ReadLine());
+            float Slant_Height = float.Parse(Console.ReadLine());
+            double PI = 3.14;
+            double SurfaceArea =PI*Radius*Radius+PI*Radius*Slant_Height;
+            Console.WriteLine("Surface Area of Cone: " + SurfaceArea);
+            Console.ReadKey();
+        }
+        public static void vol()
+        {
+            float radius=float.Parse(Console.ReadLine());
+            float h=float.Parse(Console.ReadLine());
+            double pi = 3.14;
+            double vol= (1.0 / 3) * pi * h * radius * radius;
+            Console.WriteLine(vol);
+            Console.ReadKey(); 
+        }
+        public static void cel()
+        {
+            float c =float.Parse(Console.ReadLine()); 
+            Console.WriteLine("celsius is " +c);
+            double F = ((c * 9) / 5 + 32);
+            Console.WriteLine("Temperature in Fahrenheit is: " + F);
+        }
+        public static void faren()
+        {
+            float f=float.Parse(Console.ReadLine());
+            Console.WriteLine("farenhiet is" + f);
+            double c= (f - 32) * 5 / 9;
+            Console.WriteLine("Temperature in celsius is:" + c);
+        }
+        public static void profitandloss()
+        {
+            Console.WriteLine("enter cost price");
+            double costprice = double.Parse(Console.ReadLine());
+            Console.WriteLine("enter selling price");
+            double Sellingprice = double.Parse(Console.ReadLine()); 
+            double profit = Sellingprice-costprice;
+            double loss = costprice-Sellingprice;
+            if(costprice == Sellingprice)
+            {
+                Console.WriteLine("no loss no profit");
+            }
+            else if(Sellingprice >costprice )
+            {
+                Console.WriteLine("profit is"+profit);
+            }
+            else
+            {
+                Console.WriteLine("loss is " + loss);
+            }
+            Console.WriteLine();
+        }
+        public static void patt()
+        {
+            int i, j, k;
 
+            for (i = 1; i <= 7; i++)
+            {
+                for (j = 1; j <= i; ++j)
+                    Console.Write(j);
+            }
+
+            Console.ReadLine();
+        }
+        public static void patter()
+        {
+            Console.Write("Enter Height: ");
+            int n = int.Parse(Console.ReadLine());
+            for (int i=n;i>1;i--)
+            {
+                for(int j=1;j<=i;j++)
+                {
+                  Console.Write(j);
+                }
+                Console.WriteLine();
+            }
+        }
+        public static void pow(int n, int rem)
+        {
+            int pow = 0;
+             pow += (int)Math.Pow(n, rem);
+            Console.WriteLine(pow);
+        }
+
+    }
 }

@@ -29,11 +29,22 @@ namespace ConsoleAppInterview
             //Class4.dec();
             //Class5.ODTT();
             // 
-            Class8.AreaofRectange();
+            //Class10 obj = new Class10();
+            //obj.Show(10);
+            //obj.Show(55.5);
+            //obj.Show("brijeh");
+            // Class8.pow(2,3);
+            // Constructor obj = new Constructor("brijesh");
+            //isas.test();
+            //isas.test3();
+            //Class11.test();
+            //Class13 obj = new Class13();
+            //obj.test2();
+            Class14 obj2 = new Class14();
+          
+            addnumber obj = new addnumber(obj.addnum);
+
         }
-        static void Test(string[] args)
-        {
-            Class7.TwistedPrime();
-        }
+       
     }
 }
